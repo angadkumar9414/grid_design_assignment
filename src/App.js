@@ -76,7 +76,7 @@ let stories = [
        "https://edyoda.s3.amazonaws.com/media/blog-images/4.png",
      title: "Impact of Cloud Computing in various industries",
      author: "Edyoda ",
-     date: "23 Aug 2023",
+     date: "07 Oct 2023",
      text: "Cloud computing has been rapidly gaining pace in the world of information technology. It has been observed that over 90% of global enterprises are using cloud technology as part of their business.",
    }
 ];
