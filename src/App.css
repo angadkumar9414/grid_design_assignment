@@ -1,38 +1,208 @@
-.App {
-  text-align: center;
+.app{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    padding: 16px 78px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrap {
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo {
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-written {
+    color: #0084ff;
+    font-size: 34px;
+    font-weight: 900;
+    font-family: Raleway, sans-serif;
+    height: 100%;
+    font-style: normal;
+    line-height: 1.09;
+    letter-spacing: -0.9px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.para {
+    font-size: 18px;
+    font-style: italic;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.09px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, .8);
+
+}
+
+.drop-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#para {
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 1.08px;
+}
+
+.drop-down {
+    cursor: pointer;
+}
+
+.header-btn button {
+    border: 1px solid black;
+    padding: 15px 23px;
+    border-radius: 30px;
+    color: white;
+    background: #0041ffbf;
+    font-size: 15px;
+    border: none;
+}
+
+
+/* section */
+
+.section {
+    background-color: #f2f6ff;
+
+}
+
+.trend-head {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.trend-head h1 {
+    font-size: 34px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: -.9px;
+    line-height: 1.94;
+    font-weight: 600;
+    margin: 0px;
+    color: #000;
+}
+
+.filter-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+#filter-head {
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+}
+
+.buttons {
+    width: 70%;
+    margin: 10px auto;
+    padding-bottom: 15px;
+}
+
+.btns {
+    border: 1px solid #0084ff;
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#btn-all {
+    background-color: #0084ff;
+    color: white;
+}
+
+.btns:hover {
+    background-color: #0084ff;
+    color: #ffff;
+}
+
+
+#container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.itemcard {
+    width: 32%;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 7px #0084ff;
+}
+
+.imagesection {
+    width: 100%;
+    height: 176px;
+}
+
+.itemimg {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.textsection {
+    padding: 10px 24px;
+}
+
+.title {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+}
+
+.authorcontainer {
+    padding-top: 4px;
+}
+
+.author {
+    color: #0096ff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.date {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 4px 0;
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: #172146;
+    padding: 80px 16%;
 }
