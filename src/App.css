@@ -4,82 +4,88 @@
     background-color: #f2f6ff;
 }
 
-.header {
-    padding: 10px 45px;
-    /* border: 1px solid black; */
+#header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ffff;
-    border-bottom: 1px solid gray;
+    background-color: #fff;
     position: fixed;
     top: 0;
-    z-index: 10;
     width: 100%;
-}
-
-.wrap {
-    width: 32%;
+    border-bottom: 1px #555;
+    height: 115px;
+  }
+  #left-side-header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-}
-
-.logo {
-    cursor: pointer;
-}
-
-.logo-written {
-    color: #0084ff;
-    font-size: 34px;
-    font-weight: 900;
-    font-family: Raleway, sans-serif;
-    height: 100%;
-    font-style: normal;
-    line-height: 1.09;
-    letter-spacing: -0.9px;
-}
-
-.para {
-    font-size: 18px;
-    font-style: italic;
-    font-family: Raleway, sans-serif;
-    font-size: 25px;
-    letter-spacing: 1.09px;
-    font-weight: lighter;
-    color: rgba(0, 0, 0, .8);
-    margin: 5px 0px;
-}
-
-.drop-down {
+    padding-left: 100px;
+  }
+  #right-side-header {
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-#para {
-    padding: 15px 0px;
-    text-align: center;
-    font-size: 22px;
-    font-style: normal;
-    font-family: Open Sans, sans-serif;
-    letter-spacing: 1.08px;
-}
-
-.drop-down {
-    cursor: pointer;
-}
-
-.header-btn button {
-    border: 1px solid black;
-    padding: 15px 23px;
-    border-radius: 30px;
-    color: white;
-    background: #0041ffbf;
+    padding-right: 100px;
+  }
+  #explore-categerios {
+    padding-left: 80px;
     font-size: 20px;
+  }
+  
+  #edyoda-text {
+    color: #0084ff;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: -0.9px;
+    text-align: left;
+    font-family: Raleway, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  #stories-text {
+    font-family: Raleway, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: 0.9px;
+    color: #000;
+    font-size: 22px;
+  }
+  .down-arrow {
+    font-size: 25px;
+    padding-left: 8px;
+}
+  #edyoda-description {
+    min-width: 23em;
+    opacity: 0.6;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 0.5em;
+    /* padding-right: 36px; */
+    font-size: 20px;
+  }
+  #main-website-btn {
+    padding: 19px 29px;
+    background: linear-gradient(269deg, #0048ff, #0096ff);
+    color: white;
     border: none;
+    border-radius: 35px;
+    font-weight: 600;
     cursor: pointer;
-    margin-right: 120px;
+    font-size: 18px;
+  }
+  .fa-angle-down::before {
+    position: relative;
+    top: 4px;
 }
 
 
